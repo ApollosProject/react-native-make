@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/apollosproject/react-native-make"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react-native",
     "generator",
