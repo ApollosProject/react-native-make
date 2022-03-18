@@ -66,7 +66,7 @@ const addReactNativeSplashScreen = (
   if (readFile(mainActivityPath).match(onCreateRegExp)) {
     applyPatch(mainActivityPath, {
       pattern: onCreateRegExp,
-      patch: 'SplashScreen.show(this, R.style.SplashScreenTheme);',
+      patch: 'SplashScreen.show(this);',
     });
   } else {
     applyPatch(mainActivityPath, {
@@ -74,7 +74,7 @@ const addReactNativeSplashScreen = (
       patch:
         '    @Override\n' +
         '    protected void onCreate(Bundle savedInstanceState) {\n' +
-        '        SplashScreen.show(this, R.style.SplashScreenTheme);\n' +
+        '        SplashScreen.show(this);\n' +
         '        super.onCreate(savedInstanceState);\n' +
         '    }',
     });
