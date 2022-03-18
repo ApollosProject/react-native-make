@@ -1,11 +1,11 @@
 {
-  "name": "@bam.tech/react-native-make",
-  "version": "3.0.3",
+  "name": "@apollosproject/react-native-make",
+  "version": "3.0.4",
   "main": "modules/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bamlab/react-native-make"
+    "url": "https://github.com/apollosproject/react-native-make"
   },
   "keywords": [
     "react-native",
