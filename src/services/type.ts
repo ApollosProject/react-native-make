@@ -1,6 +1,8 @@
 export enum EPlatform {
   IOS = 'ios',
+  TVOS = 'tvos',
   ANDROID = 'android',
+  ANDROIDTV = 'androidtv',
   ALL = 'all',
 }
 

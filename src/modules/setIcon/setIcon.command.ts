@@ -15,7 +15,7 @@ export const setIconCommand: Command = {
     },
     {
       name: '--platform [type]',
-      description: 'ios or android',
+      description: 'ios, tvos, android, or androidtv',
       default: EPlatform.ALL,
     },
     {
